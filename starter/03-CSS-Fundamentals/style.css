@@ -1,3 +1,5 @@
+/* GLOBAL BLOCKS */
+
 h1,
 h2,
 h3,
@@ -7,6 +9,29 @@ li,
 footer {
   font-family: sans-serif;
 }
+
+h1,
+h2,
+h3 {
+  color: rgb(34, 122, 253);
+}
+
+/* CLASSES */
+
+.main-header {
+  background-color: rgb(245, 245, 245);
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related-posts {
+  list-style: none;
+}
+
+/* MISC */
 
 h1 {
   font-size: 26px;
@@ -43,4 +68,30 @@ footer p {
 
 #author {
   font-style: italic;
+}
+
+aside {
+  background-color: white;
+  border: 5px solid rgb(34, 122, 253);
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:nth-child(3) {
+  color: red;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+a:active {
+  background-color: black;
 }
