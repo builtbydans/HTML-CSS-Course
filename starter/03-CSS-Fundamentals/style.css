@@ -33,6 +33,11 @@ h3 {
 
 /* MISC */
 
+body {
+  color: #444;
+  border-top: 10px solid blue;
+}
+
 h1 {
   font-size: 26px;
   text-transform: uppercase;
@@ -73,6 +78,7 @@ footer p {
 aside {
   background-color: white;
   border: 5px solid rgb(34, 122, 253);
+  width: auto;
 }
 
 li:first-child {
@@ -94,4 +100,14 @@ a:hover {
 
 a:active {
   background-color: black;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
 }
