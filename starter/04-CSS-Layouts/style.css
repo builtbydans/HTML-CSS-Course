@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -48,10 +48,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 /* SMALLER ELEMENTS */
@@ -92,7 +89,6 @@ p {
 
 ul,
 ol {
-  margin-left: 50px;
   margin-bottom: 20px;
 }
 
@@ -278,4 +274,22 @@ nav {
   clear: both;
   content: "";
   display: block;
+}
+
+article {
+  width: 760px;
+  float: left;
+}
+
+aside {
+  width: 400px;
+  float: right;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: yellow;
+  clear: both;
 }

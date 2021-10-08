@@ -1,0 +1,148 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: rgb(233, 233, 233);
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+}
+
+h1::before {
+  content: "SALE";
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  letter-spacing: 0.2em;
+  position: absolute;
+  top: -12px;
+  left: -25px;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  list-style: square;
+  margin-left: -22px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+/* CLASSES */
+
+.product-info {
+  width: 233px;
+  float: left;
+  padding-top: 40px;
+}
+
+.product-details {
+  width: 233px;
+  float: right;
+  padding-right: 10px;
+}
+
+img {
+  float: left;
+  margin-right: 30px;
+}
+
+.container {
+  border: 3px solid black;
+  width: 800px;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+.btn-container {
+  border-top: 3px solid black;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  float: left;
+}
+
+.shipping-detail {
+  font-size: 10px;
+  font-weight: bold;
+  color: grey;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.product-description {
+  clear: both;
+}
+
+.prod-det-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* COLOUR BOXES */
+
+.color {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin: 30px 10px -10px 0px;
+}
+
+.bluebox {
+  background-color: blue;
+}
+
+.redbox {
+  background-color: red;
+}
+
+.yellowbox {
+  background-color: yellow;
+}
+
+.greenbox {
+  background-color: green;
+}
+
+.brownbox {
+  background-color: brown;
+}
